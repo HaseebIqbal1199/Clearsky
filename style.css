@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #000;
+}
+
+:root {
+    --grey: #161616a6;
+}
+
+.borad-30 {
+    border-radius: 20px;
+}
+
+.showboard {
+    /* background: var(--grey); */
+    height: 45svh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hourlydiv {
+    background: var(--grey);
+    height: 40svh;
+    width: 93vw;
+    margin: 2svh auto;
+    overflow-x: hidden;
+
+}
+
+.Aioverview {
+    background: var(--grey);
+    height: 15svh;
+    width: 93vw;
+    margin: 2vh auto;
+    overflow: hidden;
+}
+
+.weekly {
+    background: var(--grey);
+    height: 45svh;
+    width: 93vw;
+    margin: 2vh auto;
+    overflow-x: hidden;
+}
+
+.extraperks {
+
+    height: 45svh;
+    width: 93vw;
+    margin: 2vh auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.perksdivtop {
+
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perksdivbottom {
+
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity {
+    background: var(--grey);
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.uvindex {
+    background: var(--grey);
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wind {
+    background: var(--grey);
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sunrise-set {
+    background: var(--grey);
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* coursol */
+.wrapper {
+    /* background-color: green; */
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.card1{
+    /* background-color: blue; */
+    width: 100%;
+    position: relative;
+    height: 14vh;
+}
+.card2{
+    /* background-color: orange; */
+    width: 100%;
+    position: relative;
+    height: 14vh;
+}
+.img{
+    width: 50%;
+}
+span{
+    color: rgba(201, 200, 200, 0.438);
+}
+
+/* hoursly forcast */
+
+.hour,
+.days{
+    /* background-color: red; */
+    width: 100%;
+    height: 1vh;
+    margin: 1px 0;
+    height: 13.5%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.childhumidity,
+.childsunset,
+.childwind{
+    display: flex;
+    /* background-color: rgb(255, 0, 179); */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.realtime{
+    /* background-color: teal; */
+    width: fit-content;
+    height: 100%;
+    color: white;
+    display: flex;
+    /* padding-left: 20px; */
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    /* gap: 3px; */
+    font-family: 'Open Sans', sans-serif;
+
+}
+.location{
+    display: flex;
+    gap: 10px;
+    margin-top: 0%;
+    /* justify-content: center; */
+    align-items: center;
+}
+.realtimeimage{
+    /* background-color: magenta; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.currentdeg{
+    font-size: 6rem;
+    /* margin-top: 30%; */
+    /* margin-left: 10%; */
+}
+.currentstatus{
+
+    margin-top: 11%;
+    
+}
+.feellike{
+    margin-top: 5%;
+    color: rgba(255, 255, 255, 0.37);
+    /* margin-left: 10%; */
+    
+}
